@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<launch>
+     
+
+
+     <arg name="dbg_args"   default="gdb -ex run --args"/>
+     <arg name="debug_args"   default=""/>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent0" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="0"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="true"/>
+	  <param name="display_debug_msg" value="true"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent1" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="1"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent2" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="2"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent3" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="3"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent4" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="4"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent5" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="5"/>
+	  <param name="robot_max_speed" value="0.4"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent6" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="6"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent7" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="7"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent8" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="8"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+     <node pkg="decent_voronoi" type="decent_voronoi_ros_agent" name="agent9" launch-prefix="$(arg debug_args)" output="screen">
+	  <param name="robot_index" value="9"/>
+	  <param name="robot_max_speed" value="0.8"/>  <!-- m/s -->
+	  <param name="robot_cov_radius" value="20"/> <!-- meter -->
+          <param name="is_img_save" value="false"/>
+	  <param name="display_debug_msg" value="false"/>
+	  <rosparam file="$(find decent_voronoi)/params/decent_voronoi_common_params_case2_1.yaml" command="load"/>         
+     </node>
+
+
+</launch>
