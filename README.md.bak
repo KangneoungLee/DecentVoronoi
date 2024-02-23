@@ -35,18 +35,16 @@ Set up a proper IP address for ROS2 connection
 
 ## Vritual robot and decentralized coverage control
 ```
+
 cd DecentVoronoi
 colcon build --symlink-install
 source install/setup.bash
 ros2 launch decent_main_launch decent_voro.launch.py   
-```
 
 open another terminal
 
 set up a proper IP address in DecentVoronoi/src/ros_tcp_endpoint_main_ros2/launch/endpoint.launch.py for UI connection
 
-ros tcp endpoint is from https://github.com/Unity-Technologies/ROS-TCP-Endpoint
-```
 cd DecentVoronoi
 source install/setup.bash
 ros2 launch ros_tcp_endpoint_main_ros2 endpoint.launch.py
