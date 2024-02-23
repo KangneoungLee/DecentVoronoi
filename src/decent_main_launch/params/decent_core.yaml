@@ -1,0 +1,238 @@
+decent_voronoi_agent0_node:
+    ros__parameters:
+        robot_index: 0
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: true
+        is_img_save: true
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+
+
+decent_voronoi_agent1_node:
+    ros__parameters:
+        robot_index: 1
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+
+
+decent_voronoi_agent2_node:
+    ros__parameters:
+        robot_index: 2
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+
+
+decent_voronoi_agent3_node:
+    ros__parameters:
+        robot_index: 3
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+
+
+decent_voronoi_agent4_node:
+    ros__parameters:
+        robot_index: 4
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+        
+
+decent_voronoi_agent5_node:
+    ros__parameters:
+        robot_index: 5
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+
+
+decent_voronoi_agent6_node:
+    ros__parameters:
+        robot_index: 6
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+        
+
+decent_voronoi_agent7_node:
+    ros__parameters:
+        robot_index: 7
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+        
+
+decent_voronoi_agent8_node:
+    ros__parameters:
+        robot_index: 8
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false
+        
+
+decent_voronoi_agent9_node:
+    ros__parameters:
+        robot_index: 9
+        robot_max_speed: 0.4
+        robot_cov_radius: 20
+        display_debug_msg: false
+        is_img_save: false
+        loop_rate_milisec: 500
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_img_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        text_log_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/log/case1_3/
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/opt_animation/
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        text_log_enable: true
+        y_axis_swap: true
+        max_pixel_length: 200
+        map_resolution: 0.3825
+        max_agent_num: 10
+        is_hete_cov_radius: false
+        is_dropout_use: true
+        is_propa_connected_area: false

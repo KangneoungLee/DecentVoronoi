@@ -1,0 +1,79 @@
+decent_interface_node:
+    ros__parameters:
+        #debug: false
+        density_ui_topic: coverage_control/color/density
+        map_resol_topic: coverage_control/map_resolution
+        pivot_gps_lu_topic: coverage_control/pivot_gps_lu
+        pivot_gps_lb_topic: coverage_control/pivot_gps_lb
+        pivot_gps_ru_topic: coverage_control/pivot_gps_ru
+        pivot_gps_rb_topic: coverage_control/pivot_gps_rb
+        mission_cancel_topic: coverage_control/cancel
+        mission_return_home_topic: coverage_control/return_home
+        datum_x_norm_topic: coverage_control/datum_x_norm
+        datum_y_norm_topic: coverage_control/datum_y_norm
+        trunk_dir: /home/kangneoung/decent_voronoi/src/trunk
+        density_save_dir: /home/kangneoung/decent_voronoi/src/trunk/density.png
+        map_resol_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/resol.txt
+        datum_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/datum.txt
+        pivot_gps_lu_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/gps_lu.txt
+        pivot_gps_lb_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/gps_lb.txt
+        pivot_gps_ru_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/gps_ru.txt
+        pivot_gps_rb_txt_dir: /home/kangneoung/decent_voronoi/src/trunk/gps_rb.txt
+
+decent_virtual_agent_node:
+    ros__parameters:
+        loop_rate_milisec: 100
+        agent_num: 10
+        virtual_agent_start_index: 0
+        y_axis_swap: false
+        agent_init_pose: [10.6, 2.0, 0.4,
+                          10.6, 6.0, 0.4,
+                          15.6, 2.0, 0.4,
+                          15.6, 6.0, 0.4,
+                          20.4, 2.0, 0.4,
+                          20.4, 6.0, 0.4,
+                          20.4, 10.0, 0.4,
+                          25.4, 2.0, 0.4,
+                          25.4, 6.0, 0.4,
+                          25.4, 10.0, 0.4,
+                          0.2, 18.8, 0.4,
+                          0.2, 18.6, 0.4,
+                          0.2, 18.4, 0.4,
+                          0.2, 18.2, 0.4,
+                          0.2, 18.0, 0.4,
+                          0.4, 18.8, 0.4,
+                          0.4, 18.6, 0.4,
+                          0.4, 18.4, 0.4,
+                          0.4, 18.2, 0.4,
+                          0.4, 18.0, 0.4]
+
+        
+nri_plan_agent_websocket_node:
+    ros__parameters:
+        max_agent_num: 5
+        robot_gps_topic: global_position
+        robot_gps_goal_topic: gps_goal
+        robot_gps_from_agent_topic: Localization/GPS
+        robot_gps_goal_to_agent_topic: goal_point
+        agent_ip0: 10.0.0.101
+        agent_ip1: 10.0.0.102
+        agent_ip2: 10.0.0.103
+        agent_ip3: 10.0.0.105
+        agent_ip4: 10.0.0.104
+
+
+offline_metric_cal_ros_node:
+    ros__parameters:
+        loop_rate_milisec: 500
+        density_img_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/offline_metric_cal/density.png
+        log_file_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/offline_metric_cal/log
+        img_save_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/offline_metric_cal/image/
+        metric_out_file_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/test/offline_metric_cal
+        img_color_label_dir: /home/kangneoung/decent_voronoi/src/decent_voronoi/label/label.txt
+        y_axis_swap: true
+        map_width: 200
+        map_height: 150
+        map_resolution: 0.3825
+        agent_num: 10
+        is_hete_cov_radius: false
+        is_propa_connected_area: false
